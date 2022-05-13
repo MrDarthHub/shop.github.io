@@ -1,0 +1,44 @@
+
+
+.cabecera_container{
+    width: 85%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .85rem;
+    padding-bottom:.85rem;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 75px;
+}
+
+.titulo-tienda{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: #464646;
+    cursor: pointer;
+}
+
+.busqueda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.busqueda_campo{
+    padding: .75rem 1rem;
+    border-radius: 1.25rem;
+    width: 21.8rem;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.busqueda_campo:focus{
+    outline: none;
+}
+
